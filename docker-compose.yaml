@@ -2,6 +2,6 @@ version: '3.9'
 
 services:
   web:
-    image: "${env.dockerHubuser}/node-app-demo:latest"
+    image: "sanjaykamat005/node-app-demo:latest"
     ports:
       - "8000:8000"
